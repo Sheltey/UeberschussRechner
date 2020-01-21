@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Server.Factories.CsvSpeichern
 {
-    class CsvSpeichernFactorie
+    public class CsvSpeichernFactorie : ICsvSpeichernFactorie
     {
+        public void DatenSichern(string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

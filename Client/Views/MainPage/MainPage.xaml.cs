@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Server.Factories.CsvSpeichern;
+using System;
 using System.Windows;
 
 namespace Client.Views.MainPage
@@ -15,7 +16,6 @@ namespace Client.Views.MainPage
 
         public void Tabelle()
         {
-            CsvSpeichernFactorie csvSpeichernFactorie = new CsvSpeichernFactorie();
         }
     }
 }

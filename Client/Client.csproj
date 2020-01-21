@@ -100,5 +100,11 @@
   <ItemGroup>
     <Folder Include="Views\PopUp\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Server\Server.csproj">
+      <Project>{45b0f9ac-4f02-4740-8877-c05fdaa37d6a}</Project>
+      <Name>Server</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

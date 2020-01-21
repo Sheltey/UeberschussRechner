@@ -16,10 +16,6 @@ namespace Client.Views.MainPage
 
         public void Tabelle()
         {
-            Console.WriteLine("Hello Günnei");
-
-
-            //HelloWorld
 
         }
     }
